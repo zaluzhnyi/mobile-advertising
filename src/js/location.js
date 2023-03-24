@@ -1,9 +1,7 @@
 let params = (new URL(document.location)).searchParams;
 console.log(window.navigator.systemLanguage)
 let language = window.navigator ? (params.get("lang") ||
-    window.navigator.systemLanguage ) : "en";
-console.log(language)
-language = language.substr(0, 2).toLowerCase();
+    Intl.DateTimeFormat().resolvedOptions().locale ) : "en";
 fetch(`src/Localizations/${language}.json`)
     .then(response => response.json())
     .then(data => {

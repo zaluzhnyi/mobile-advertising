@@ -1,7 +1,5 @@
 const cards = document.querySelectorAll('.card')
-console.log(cards)
 cards.forEach(el=>{
-    console.log(el)
     el.addEventListener('click',()=>{
         let current = document.getElementsByClassName("active");
         current[0].className = current[0].className.replace(" active", "");
