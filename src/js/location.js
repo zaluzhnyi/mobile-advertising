@@ -2,7 +2,7 @@ let params = (new URL(document.location)).searchParams;
 let language = window.navigator ? (params.get("lang") ||
     Intl.DateTimeFormat().resolvedOptions().locale ) : "en";
 console.log(language)
-fetch(`./Localizations/${language}.json`)
+fetch(`.dist/Localizations/${language}.json`)
     .then(response => response.json())
     .then(data => {
         console.log(data)
