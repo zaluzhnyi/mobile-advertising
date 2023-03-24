@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <link href="./dist/styles.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+<div class="wrapper">
+    <nav>
+            <a class="path" href="#"><img src="./src/Assets/Path.svg" alt="close"></a>
+            <a class="path" href="#" id="Restore">Restore</a>
+    </nav>
+    <section>
+        <h1 id="UnlimitedAccess">Unlimited Access<br>to All Features</h1>
+        <ul>
+            <li>
+                <img src="./src/Assets/unlimitedDocs.svg" alt="icon unlimited"/>
+                <p id="UnlimitedDocuments">Unlimited documents</p>
+            </li>
+            <li>
+                <img src="./src/Assets/export.svg" alt="icon export"/>
+                <p id="ExportCloud">Export to clouds</p>
+            </li>
+            <li>
+                <img src="./src/Assets/noAds.svg" alt="icon text"/>
+                <p id="TextRecognition">Text recognition (OCR)</p>
+            </li>
+        </ul>
+        <div class="card-container">
+            <div class="card active" id="month">
+                <p class="card__type" id="Monthly">Monthly</p>
+                <p class="card__price" id="priceMonth"><strong>$9.99</strong><br>per month</p>
+                <p class="card__additional-information" id="freeDay">3 DAYS FREE!</p>
+                <p class="card__price-month" id="monthPay">$9.99 month</p>
+            </div>
+            <div class="card card-rectangle" id="year">
+                <p class="card__type" id="Annually" >Annually</p>
+                <p class="card__price" id="priceYear" ><strong>$19.99</strong><br>per year</p>
+                <p class="card__additional-information" id="popular">MOST POPULAR</p>
+                <p class="card__price-month" id="monthPayYear">$1.66 month</p>
+                <div class="card__percent" ><span>-83%</span></div>
+            </div>
+        </div>
+        <a href="https://apple.com/" class="button-continue" id="buttonContinue">Continue</a>
+        <p class="text-auto-rewable" id="auto">Auto-rewable. Cancel anytime</p>
+    </section>
+    <footer>
+        <a href="#" class="link-footer" id="terms">Terms of Use</a>
+        <a href="#" class="link-footer" id="privacy">Privacy Policy</a>
+    </footer>
+</div>
+<script src="./dist/boundle.js"></script>
+</body>
+</html>
+

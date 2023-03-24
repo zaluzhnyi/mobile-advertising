@@ -1,0 +1,233 @@
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/fonts/stylesheet.css ***!
+  \****************************************************************************/
+
+@font-face {
+    font-family: 'SF Pro Display Semibold';
+    src: local('SF Pro Display Semibold'), local('SFProDisplay-Semibold'),
+    url(3926eb65ce4420a81930.woff2) format('woff2'),
+    url(340c3a1a6dddb0b99476.woff) format('woff'),
+    url(dfc89e609e62dde18375.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'),
+    url(d5ff9f6824d2c6607361.woff2) format('woff2'),
+    url(7ee14c637e39445d7093.woff) format('woff'),
+    url(6b109fecbc7563467e36.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Text Regular';
+    src: local('SF Pro Text Regular'), local('SFProText-Regular'),
+    url(567f111ec70cd8c9cafe.woff2) format('woff2'),
+    url(56cdba34ff84e2646af1.woff) format('woff'),
+    url(90da7ab18293ca42e335.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*!****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/main.css ***!
+  \****************************************************************/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    padding: 0;
+    margin: 0;
+}
+body {
+    max-height: 100vh;
+    font-family: SF Pro Display Regular;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.wrapper{
+    background: url(eee00c8f3ed67b4f816f.png) no-repeat  0 0/cover;
+    padding: 45px 20px 37px 24px;
+    width: 100vw;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .path{
+    height: 16px;
+    text-decoration: none;
+    color: #FFFFFF66;
+    font-family: SF Pro Text Regular;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 157px;
+    align-items: center;
+}
+section h1{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: SF Pro Display Semibold;
+
+}
+section ul {
+    list-style-type: none;
+    margin-top: 33px;
+    padding-left: 10px;
+}
+section ul li {
+    display: flex;
+    font-size: 17px;
+    letter-spacing: -0.32px;
+    font-family: SF Pro Text Regular;
+    margin-bottom: 10px;
+}
+section ul img {
+    margin-right: 9.5px;
+    width: 23px;
+    max-height: 21px;
+}
+section .card-container{
+    width: inherit;
+    display: flex;
+    margin-top: 47px;
+    grid-gap: 20px;
+}
+section .card-container .card{
+    width: 131px;
+    height: 162px;
+    background: linear-gradient(0deg, rgba(73, 87, 149, 0.197154), rgba(73, 87, 149, 0.197154));
+    border: 1px solid #495795;
+    border-radius: 20px;
+    opacity: 0.25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 21px 13.5px 20px;
+}
+
+section .card-container .card .card__type{
+    font-size: 19px;
+    margin-bottom: 16px ;
+}
+section .card-container .card .card__price{
+    font-size: 15px;
+    margin-bottom: 9px ;
+    line-height: 15px;
+    text-align: center;
+}
+section .card-container .card .card__price strong{
+    font-size: 24px;
+    font-family: SF Pro Display Semibold;
+}
+
+section .card-container .card .card__additional-information{
+    font-size: 15px;
+    font-family: SF Pro Display Semibold;
+    margin-bottom: 11px;
+    width: 155%;
+    background-color: #495795;
+    text-align: center;
+}
+section .card-rectangle{
+    position: relative;
+    border: none !important;
+    background: url(60cae29ceca51cc76007.svg) !important;
+
+}
+
+section .card-container .card .card__percent {
+    background-color: #DB0000;
+    border-radius: 50%;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: -3px;
+    right: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .button-continue{
+    background: linear-gradient(270deg, #1987FF 0%, #19CCFF 100%);
+    font-family: SF Pro Display Regular;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 280px;
+    border-radius: 30px;
+    border: none;
+    padding: 18px;
+    margin-top: 27px;
+    text-decoration: none;
+
+}
+.text-auto-rewable{
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-top: 13px;
+    letter-spacing: 0.5px;
+}
+footer{
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 14px;
+}
+footer .link-footer{
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    color: #BDC0D0;
+}
+.active{
+    opacity: 1 !important;
+    transform: scale(1.1);
+}
+
+@media (min-resolution: 2dppx) {
+    .wrapper{
+        background-image: url(a94694325dd887a6b861.png);
+    }
+}
+
+@media (min-resolution: 3dppx) {
+    .wrapper{
+        background-image: url(4b2d9495bf03acbcdaf4.png);
+    }
+}
+
+@media screen and (max-height: 737px){
+    section {
+        margin-top: 40px;
+    }
+}
